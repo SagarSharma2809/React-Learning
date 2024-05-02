@@ -1,3 +1,10 @@
-# React-Learning
 
-This is a collection of all the React components that I am creating as a part of my learning process. The components will be listed here for future reference.
+
+# React-Learning 
+
+This is a compilation of all the React components that I have created as a part of my learning process.
+
+## Components Made So Far:
+1. Clicker - learned states in React.
+2. ShoeList - mapping of lists, props.
+3. Toggler Component - practicing states in React.
