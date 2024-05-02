@@ -1,0 +1,14 @@
+.Toggler {
+    border-radius: 2em;
+    transition: all 0.8s ease-in-out;
+    width: 30%;
+}
+
+.Toggler p {
+    font-size: 2em;
+    cursor: pointer;
+    transition: all 0.8s ease;
+    background-size: cover;
+
+
+}
