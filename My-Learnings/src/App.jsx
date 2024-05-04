@@ -1,6 +1,7 @@
 
 import './App.css'
-import Toggler from './Toggler'
+
+import BigBox from './BigBox'
 
 
 
@@ -14,10 +15,11 @@ function App() {
   //   { id: 129035, name: "Gold Miner Campground", rating: 4.69, price: 960, url: "http://cdn.shopify.com/s/files/1/0012/3735/2514/products/gold_shoe_1200x1200.png?v=1521033915" },
   // ];
 
+
+
   return (
     <>
-      <h1>Click on the emoji</h1>
-      <Toggler />
+      <BigBox />
 
     </>
   )
