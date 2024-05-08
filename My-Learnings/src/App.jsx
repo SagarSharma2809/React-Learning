@@ -1,6 +1,6 @@
 
 import './App.css'
-
+import ScoreKeeper from './ScoreKeeper'
 import BigBox from './BigBox'
 
 
@@ -19,7 +19,8 @@ function App() {
 
   return (
     <>
-      <BigBox />
+      <BigBox sides={3} />
+      {/* <ScoreKeeper num={4} target={5} /> */}
 
     </>
   )

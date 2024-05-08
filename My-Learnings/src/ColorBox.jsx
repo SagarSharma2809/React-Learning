@@ -4,13 +4,13 @@ import "./ColorBox.css"
 export default function ColorBox({ colors }) {
 
     //we have 7 colors
-    //generate a random number from 0-7
-    let randomNum = Math.floor(Math.random() * 7);
+    //generate a random number from 0-6, 6 faces of cube
+    let randomNum = Math.floor(Math.random() * 6);
 
     const [num, setNum] = useState(randomNum);
 
     const changeColor = () => {
-        randomNum = Math.floor(Math.random() * 7);
+        randomNum = Math.floor(Math.random() * 6);
         setNum(randomNum);
     }
 

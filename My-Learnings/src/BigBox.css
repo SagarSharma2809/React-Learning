@@ -1,3 +1,9 @@
-.BigBox .boxRow {
+.BigBox {
     display: flex;
+    flex-wrap: wrap;
+
+    width: 33.4%;
+    height: 33.4%;
+
+
 }
