@@ -6,7 +6,7 @@ import saveAs from 'file-saver'
 const baseURL = "https://pixabay.com/api/?key=44393151-037e8c613ec9f246837576fbf&";
 
 export default function ImageLoader() {
-    const [query, setQuery] = useState("cat");
+    const [query, setQuery] = useState("mountains");
     const [image, setImage] = useState({ data: null, isLoading: true, error: null });
     const [prevImage, setPrevImage] = useState(null);
 
