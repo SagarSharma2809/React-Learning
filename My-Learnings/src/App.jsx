@@ -1,6 +1,6 @@
 
 import './App.css'
-import ScoreKeeper from './ScoreKeeper'
+import ImageLoader from './UseEffectHook/ImageLoader'
 
 
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
 
-      <ScoreKeeper num={4} target={5} />
+      <ImageLoader />
 
     </>
   )
