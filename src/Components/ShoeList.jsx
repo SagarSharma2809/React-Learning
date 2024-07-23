@@ -1,6 +1,7 @@
 import Shoe from "./Shoe";
+import { properties } from '../Data/ShoeData.js'
 
-function ShoeList({ properties }) {
+function ShoeList() {
     return (
         <>
             <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap" }}>
