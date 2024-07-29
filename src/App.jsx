@@ -1,6 +1,6 @@
 
 import './App.css'
-import Stopwatch from './Components/UseRefHookComponents/Stopwatch'
+import ThemePage from './Components/ThemePage'
 
 
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
 
-      <Stopwatch />
+      <ThemePage />
 
     </>
   )
